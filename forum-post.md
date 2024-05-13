@@ -1,6 +1,6 @@
 TL;DR: Torn currently has an unfixed vulnerability in its system to link Torn and Discord accounts potentially enabling malicious users to link their Discord ID to someone else's Torn account. This would allow users to impersonate other users on websites, bots, and Discord servers that rely upon Discord IDs.
 
-I've shortened this significantly... more details and technical details can be found in a GitHub repository https://github.com/dssecret/torn-csrf-cvd/blob/master/full-disclosure.pdf
+I've shortened this significantly... many more details and technical details can be found in a GitHub repository. https://github.com/dssecret/torn-csrf-cvd/blob/master/full-disclosure.pdf
 
 In compliance with Torn's bug bounty policy, this is a public disclosure of an unresolved vulnerability after a 30 day waiting period after the initial report. Additionally, Torn staff had a general lack of responsiveness and a lack of willingness to fix the vulnerability with, for example, Ched claiming that "this isn't banking software" and doesn't need to be fully secure. This vulnerability would allow malicious users to send other users a link to Torn's Discord linking URL (https://torn.com/discord.php) and link the user's Torn account to the malicious user's Discord ID.
 
