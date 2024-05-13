@@ -1,0 +1,5 @@
+# Torn Discord Account Linking Vulnerability Disclosure
+This repository contains the public disclosure, screenshots of relevant mails, etc. regarding the disclosure of a vulnerability impacting Torn's system to link Torn and Discord accounts. The vulnerability could allow malicious users to have their Discord ID linked to other users accounts. To be safe, avoid clicking on any links that will send you to Torn's Discord verification page (`https://torn.com/discord.php`) that doesn't come from Discord directly and attempt to follow the link to verification from George bot directly.
+
+## For users of Tornium
+For those of you that are users of Tornium, as a precaution Discord-based login for Tornium has been disabled and everyone has been signed out. I understand this is an inconvience for everyone, but I need to protect user data and there's no way for me to determine if a Torn user's account is compromised. However, there does not appear to be any abuse of this vulnerability against Tornium, so user data *should* still be secure.
